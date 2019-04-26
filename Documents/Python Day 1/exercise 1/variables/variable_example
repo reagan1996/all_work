@@ -1,0 +1,33 @@
+a = 1 #int
+b = 2 #int
+c = 3.5 #float
+hi = "Hello World" #string
+
+# print(a)
+# print(a + b)
+
+# print(type(a))
+# print(hi.upper())
+# print(c)
+# c = b
+# print(c)
+
+# print("What is your name?")
+# name = input()
+# print("hi")
+# print(name)
+
+# name = input("What is your name?")
+# print("hi" + " " + name)
+
+# Exercise
+# name = input("What is your name? ")
+# age = input("What is your age? ")
+# dob = input ("What is your date of birth? ")
+
+# print("Name: " + name)
+# print("Age: " + age)
+# print("Date of Birth: " + dob)
+
+
+

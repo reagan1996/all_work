@@ -1,0 +1,5 @@
+fruits = {"Apple", "Banana", "Cherry"}
+f_fruits = frozenset(fruits)
+print(f_fruits)
+hello = set("Hello")
+print(hello)

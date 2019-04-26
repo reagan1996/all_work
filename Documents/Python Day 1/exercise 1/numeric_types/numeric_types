@@ -1,0 +1,22 @@
+# ints
+
+a = 24
+b = 16
+
+print(a+b)
+print(a > b)
+print(a < b)
+
+# floats
+
+FloatNum = 1.345
+IntNum = 4
+
+print(FloatNum + IntNum)
+
+One_third = 1/3
+
+print(One_third)
+
+print(One_third * 3)
+

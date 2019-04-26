@@ -1,0 +1,30 @@
+# automated cinema ticket machine
+
+age = 19
+
+# if age >= 18:
+#     print("You are the correct age to watch this film and you can buy a ticket")
+#
+# if age < 18:
+#     print("I'm afraid you are not the correct age to watch this film")
+
+# if age >= 18:
+#     print("You are the correct age to watch this film and you can buy a ticket")
+# elif age < 18:
+#     print("I'm afraid you are not the correct age to watch this film")
+
+film_rating = "18"
+
+if film_rating.lower() == "universal":
+    print("all age groups can watch this film")
+elif film_rating.lower() == "pg":
+    print("General viewing, but some scenes may be unsuitable for young children")
+elif film_rating == "12" or film_rating.lower() == "12a":
+    print("Films classifed 12A and video works classified 12 contain material that is not generally suitable for children under 12")
+elif film_rating == "15":
+    print("No one younger than 15 may see this film")
+elif film_rating == "18":
+    print("No one younger than 18 may see this film")
+else:
+    print("This is not a correct rating for this cinema")
+

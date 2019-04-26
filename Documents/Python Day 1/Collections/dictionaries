@@ -1,0 +1,20 @@
+student_1 = {
+    "name": "Reagan",
+    "stream": "Data",
+    "completed_lessons":4,
+    "completed_lesson_names": ["variables", "data-types", "set-up", "operators"]
+}
+
+# print(student_1)
+# print(student_1["stream"])
+# print(student_1["completed_lesson_names"][1])
+# student_1["completed_lessons"] = 3
+# print(student_1)
+#
+# student_1["completed_lesson_names"].remove("operators")
+# print(student_1)
+
+# dictionary methods
+
+print(student_1.keys())
+

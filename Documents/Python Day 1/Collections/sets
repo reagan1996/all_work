@@ -1,0 +1,12 @@
+# car_parts = {"wheels", "doors", "exhaust"}
+# print(car_parts)
+#
+# car_parts.add("windows")
+# print(car_parts)
+#
+# car_parts.discard("windows")
+# print(car_parts)
+
+frozen_set = frozenset([1,2,3,4])
+print(frozen_set)
+

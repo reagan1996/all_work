@@ -1,0 +1,35 @@
+shopping_list = ["eggs", "bread", "bananas", "icecream", "milk"]
+
+# print(shopping_list)
+# print(type(shopping_list))
+# print(shopping_list[-1])
+#
+# shopping_list.append("cheese")
+#
+# print(shopping_list[-1])
+# print(shopping_list.__len__())
+# print(len(shopping_list))
+#
+# shopping_list.pop()
+#
+# print(shopping_list)
+
+# mixture = [1,2,3,"one","two","three"]
+#
+# print(mixture)
+#
+# # List slicing
+#
+# print(mixture[1:3])
+# print(mixture[::2])
+
+# tuples
+
+essentials = ("bread", "eggs", "milk")
+
+print(essentials)
+print(essentials.count("bread"))
+
+# essentials[0] = "beans"
+
+bread = "bread"

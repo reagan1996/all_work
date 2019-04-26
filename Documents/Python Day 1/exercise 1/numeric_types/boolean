@@ -1,0 +1,23 @@
+a = True
+b = False
+
+# print(a == b)
+# print(a != b)
+# print(a >= True)
+# print( b <= False)
+
+# print(True and False)
+# print(False and True)
+# print(False or True)
+
+# hello_variable = "Hello World!"
+
+# print(hello_variable.startswith("H"))
+
+# x = 0
+# # y = 10
+# #
+# # print(bool(x))
+# # print(bool(y))
+
+print(bool(None))

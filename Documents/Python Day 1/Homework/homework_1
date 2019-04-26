@@ -1,0 +1,131 @@
+ceo_1 = {
+    "name": "Michael Scott",
+    "Starting Year": 1977,
+    "End Year": 1981,
+    "Net Profit": 56.98,
+}
+
+ceo_2 = {
+    "name": "Mike Markkula",
+    "Starting Year": 1981,
+    "End Year": 1983,
+    "Net Profit": 138,
+}
+
+ceo_3 = {
+    "name": "John Sculley",
+    "Starting Year": 1983,
+    "End Year": 1993,
+    "Net Profit": 2753,
+}
+
+ceo_4 = {
+    "name": "Michael Spindler",
+    "Starting Year": 1993,
+    "End Year": 1996,
+    "Net Profit": -82,
+}
+
+ceo_5 = {
+    "name": "Gil Amelio",
+    "Starting Year": 1996,
+    "End Year": 1997,
+    "Net Profit": -1045,
+}
+
+ceo_6 = {
+    "name":"Steve Jobs",
+    "Starting Year": 1997,
+    "End Year": 2011,
+    "Net Profit": 61864,
+}
+
+ceo_7 = {
+    "name": "Tim Cook",
+    "Starting Year": 2011,
+    "End Year": None,
+    "Net Profit": 276892,
+}
+
+apple = {
+    "ceo": [ceo_1, ceo_2, ceo_3, ceo_4, ceo_5, ceo_6, ceo_7],
+    "Revenue": 265.595
+}
+
+print("Apple is one of the Big Four Technology companies, along side Amazon, Google, and Facebook.")
+input()
+print("Let's take a brief look at the history of Apple and it's many CEOs.")
+input()
+print("Apple has had 7 CEOs to date: " + apple["ceo"][0]["name"] + ', ' + apple["ceo"][1]["name"] + ', '
+      + apple["ceo"][2]["name"] + ', ' + apple["ceo"][3]["name"] + ', ' + apple["ceo"][4]["name"] + ', '
+      + apple["ceo"][5]["name"] + ', and ' + apple["ceo"][6]["name"] + '.' )
+input()
+guess = input("Which of these CEOs do you think had the greatest profit per year as CEO? ")
+print("We will find out at the end if " + guess + " was Apple's most profitable CEO.")
+input()
+print("Let's now look at the timeline of Apple's CEOs.")
+input()
+print("Apple's first CEO was " + apple["ceo"][0]["name"] + ", who was CEO for " + str(apple["ceo"][0]["End Year"]
+                                                                                      -apple["ceo"][0]["Starting Year"])
+      + " years from " + str(apple["ceo"][0]["Starting Year"]) + " to " + str(apple["ceo"][0]["End Year"]) + ".")
+input()
+print("Throughout his time as CEO he netted a profit of $" + str(apple["ceo"][0]["Net Profit"]) + " million, which isn't too bad for the first 4 years of a company.")
+input()
+print("He was actually persuaded to join Apple by Apple's second CEO " + apple["ceo"][1]["name"] + ".")
+input()
+print(apple["ceo"][1]["name"] + " was CEO for " + str(apple["ceo"][1]["End Year"]
+                                                                                      -apple["ceo"][1]["Starting Year"])
+      + " years from " + str(apple["ceo"][1]["Starting Year"]) + " to " + str(apple["ceo"][1]["End Year"]) + ".")
+input()
+print("Apple's net profit was $" + str(apple["ceo"][1]["Net Profit"]) + " million under " + apple["ceo"][1]["name"][-8:] + ".")
+input()
+print(apple["ceo"][1]["name"][-8:] + " was succeed by " + apple["ceo"][2]["name"] + ", who was CEO for " +
+      str(apple["ceo"][2]["End Year"]-apple["ceo"][2]["Starting Year"])
+      + " years from " + str(apple["ceo"][2]["Starting Year"]) + " to " + str(apple["ceo"][2]["End Year"]) + ".")
+input()
+print("Throughout his time as CEO he netted a profit of $" + str(apple["ceo"][2]["Net Profit"])[0] + "." + str(apple["ceo"][2]["Net Profit"])[1:] + " billion.")
+print("Quiet the upgrade from the previous CEOs.")
+input()
+print("Apple's fourth CEO was " + apple["ceo"][3]["name"] + ", who was CEO for " +
+      str(apple["ceo"][3]["End Year"]-apple["ceo"][3]["Starting Year"])
+      + " years from " + str(apple["ceo"][3]["Starting Year"]) + " to " + str(apple["ceo"][3]["End Year"]) + ".")
+input()
+print("Unfortunately he netted a profit of " + str(apple["ceo"][3]["Net Profit"])[0] +  "$" + str(apple["ceo"][3]["Net Profit"])[1:] + " million.")
+input()
+print("Luckily for " + apple["ceo"][3]["name"][-8:] + ", this loss is blown away by Apple's next CEO.")
+input()
+print("Apple's fifth CEO was " + apple["ceo"][4]["name"] + ", who was CEO for just " +
+      str(apple["ceo"][4]["End Year"]-apple["ceo"][4]["Starting Year"])
+      + " year from " + str(apple["ceo"][4]["Starting Year"]) + " to " + str(apple["ceo"][4]["End Year"]) + ".")
+input()
+print(apple["ceo"][4]["name"][-6:] + " netted a 'profit' of " + str(apple["ceo"][4]["Net Profit"])[0] + "$" + str(apple["ceo"][4]["Net Profit"])[1] + "." +
+      str(apple["ceo"][4]["Net Profit"])[2:] + " billion.")
+input()
+print("Ooof")
+input()
+print("Hopefully you didn't guess " + apple["ceo"][4]["name"][-6:] + " as the most profitable CEO.")
+input()
+print("Apple's stock dropped to a 12 year low, which lead to " + apple["ceo"][4]["name"][-6:] + "'s swift removal.")
+input()
+print("Finally " + apple["ceo"][5]["name"] + " took the position of CEO, where he stayed for " +
+      str(apple["ceo"][5]["End Year"]-apple["ceo"][5]["Starting Year"])
+      + " years from " + str(apple["ceo"][5]["Starting Year"]) + " to " + str(apple["ceo"][5]["End Year"]) + ".")
+input()
+print("With the amount of innovations Apple made in those years you won't be surprised to hear that Apple netted a profit of $" +
+      str(apple["ceo"][5]["Net Profit"])[0:2] + "." +str(apple["ceo"][5]["Net Profit"])[2:] + " billion.")
+input()
+print("Now we've finally reached the current CEO: " + apple["ceo"][6]["name"] + ".")
+input()
+print("He has been CEO since " + str(apple["ceo"][6]["Starting Year"]) + ", and has netted a profit of $" +
+      str(apple["ceo"][6]["Net Profit"])[0:3] + "." +str(apple["ceo"][6]["Net Profit"])[3:] + " billion, so far.")
+input()
+print("Let's see if your guess of " + guess + " for most profitable CEO was correct.")
+input()
+print("As it turns out your answer was")
+print(guess == apple["ceo"][6]["name"])
+input()
+print(apple["ceo"][6]["name"] + " averaged a profit of $" +
+      str((apple["ceo"][6]["Net Profit"]/(2019 - apple["ceo"][6]["Starting Year"])))[0:3] + "." +
+      str((apple["ceo"][6]["Net Profit"]/(2019 - apple["ceo"][6]["Starting Year"])))[3:] + " billion per year.")
+input()
+print("Thank you for listening")

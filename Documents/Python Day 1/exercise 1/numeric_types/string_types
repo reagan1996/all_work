@@ -1,0 +1,87 @@
+# single_quote = 'Look! Single quotes'
+#
+# double_quotes = "Look! Double quotes"
+#
+# print(single_quote)
+# print(double_quotes)
+#
+# # string_failure = 'I said 'Wow!''
+#
+# escape_example_1 = 'I said \'Wow!\''
+#
+# print(escape_example_1)
+#
+# quote_in_quote = 'I said "Wow!"'
+#
+# print(quote_in_quote)
+#
+# reverse_quotes = "I said 'Wow!'"
+#
+# print(reverse_quotes)
+
+# hello_string = "Hello World!"
+#
+# print(hello_string[0:6])
+
+# String methods
+
+# white_space = "Lots of white space at the end             "
+# print(len(white_space))
+# print(len(white_space.strip()))
+# print(white_space.strip())
+
+# example_text = "here's some text with lot's of text"
+#
+# # count a substring within a string
+#
+# print(example_text.count("text"))
+#
+# # bring everything to lower case
+#
+# print(example_text.lower())
+#
+# # capitalise the first letter in the sentence
+# print(example_text.capitalize())
+#
+# # Replacing text
+#
+# print(example_text.replace(" with", ""))
+
+# Concatenation
+
+# a = "here "
+# b = "more "
+# c = "much more"
+#
+# print(a + b + c)
+
+# x = 2
+# y = 5.4
+# z = " there's now a number 25.4 unless we put a space in!"
+#
+# print(str(x) + str(y) + z)
+#
+# # string to numeric casting
+#
+# int_string = "6"
+#
+# print(int(int_string))
+# print(type(int(int_string)))
+#
+# print(float(int_string))
+# print(type(float(int_string)))
+
+# Exercise
+name = input("What is your name? ")
+age = int(input("What is your age? "))
+day_of_birth = int(input ("What is your day of birth? "))
+month_of_birth = int(input("What is your month of birth?"))
+year_of_birth = int(input("What is your year of birth?"))
+house_number = int(input("What is your house number? "))
+first_line_address = input("What is the first line of your address? ")
+second_line_address = input("What is the second line of your address? ")
+postcode = input("What is your postcode? ")
+
+print("Your Profile: ")
+print("Name: " + name)
+print("Age: " + str(age))
